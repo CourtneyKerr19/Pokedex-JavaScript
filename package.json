@@ -4,7 +4,7 @@
   "description": "Personalized Pokedex Application using JavaScript, HTML, and CSS. Phase-1 Project for Flatiron School.",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port 3001"
+    "deploy": "gh-pages -d ."
   },
   "repository": {
     "type": "git",
@@ -16,9 +16,12 @@
   "bugs": {
     "url": "https://github.com/CourtneyKerr19/Pokedex-JavaScript/issues"
   },
-  "homepage": "https://github.com/CourtneyKerr19/Pokedex-JavaScript#readme",
+  "homepage": "https://CourtneyKerr19.github.io/pokedex-javascript",
   "dependencies": {
     "axios": "^1.7.2",
     "json-server": "^1.0.0-beta.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
