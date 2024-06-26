@@ -1,0 +1,62 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "height": 7
+    },
+    {
+      "id": 2,
+      "name": "Ivysaur",
+      "height": 10
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Grass",
+      "color": "green"
+    },
+    {
+      "id": 2,
+      "name": "Poison",
+      "color": "purple"
+    }
+  ],
+  "abilities": [
+    {
+      "id": 1,
+      "name": "Overgrow",
+      "effect": "Powers up Grass-type moves when the Pokémon's HP is low."
+    },
+    {
+      "id": 2,
+      "name": "Chlorophyll",
+      "effect": "Boosts the Pokémon's Speed stat in harsh sunlight."
+    }
+  ],
+  "moves": [
+    {
+      "id": 1,
+      "name": "Vine Whip",
+      "power": 45
+    },
+    {
+      "id": 2,
+      "name": "Razor Leaf",
+      "power": 55
+    }
+  ],
+  "trainers": [
+    {
+      "id": 1,
+      "name": "Ash Ketchum",
+      "region": "Kanto"
+    },
+    {
+      "id": 2,
+      "name": "Misty",
+      "region": "Kanto"
+    }
+  ]
+}
