@@ -6,7 +6,7 @@
   "scripts": {
     "start": "json-server --watch db.json --port 3001",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d ."
   },
   "repository": {
     "type": "git",
