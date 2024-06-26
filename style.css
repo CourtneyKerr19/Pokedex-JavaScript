@@ -92,7 +92,7 @@ input[type="text"]:focus {
 
 /* Pokemon Details Container */
 #pokemon-details {
-  display: none;
+  display: block;
   padding: 20px;
 }
 
@@ -125,13 +125,13 @@ input[type="text"]:focus {
   font-size: 1em;
   border: none;
   border-radius: 5px;
-  background-color: #ffcb05;
-  color: #2a75bb;
+  background-color: #9ccff4;
+  color: #992abb;
   cursor: pointer;
   transition: background-color 0.2s, box-shadow 0.2s;
 }
 
 #pokemon-details button:hover {
-  background-color: #f7b800;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #470260;
+  box-shadow: 0 4px 8px rgb(184, 210, 212); 
 }
